@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Noticia Jujutsu Kaisen Fanpage</title>
+  <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="" id="og-title" />
+  <meta property="og:description" content="" id="og-desc" />
+  <meta property="og:image" content="" id="og-image" />
+  <meta property="og:url" content="" id="og-url" />
+
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <style>
+  
+    .card.border-purple {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-color: #6f42c1 !important;
+      color: #fff;
+    }
+    .card.border-purple h6,
+    .card.border-purple .form-control,
+    .card.border-purple .btn,
+    .card.border-purple .small,
+    .card.border-purple .list-unstyled,
+    .card.border-purple .form-control::placeholder {
+      color: #fff !important;
+    }
+    .card.border-purple .form-control {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: none;
+    }
+    .card.border-purple .btn-purple {
+      background-color: #6f42c1;
+      color: #fff;
+      border: none;
+    }
+    .card.border-purple .btn-outline-purple {
+      color: #6f42c1;
+      border: 1px solid #6f42c1;
+    }
+    .card.border-purple .btn-outline-purple:hover {
+      background-color: #6f42c1;
+      color: #fff;
+    }
+
+    .detail-share a {
+      color: #fff;
+      margin-right: 10px;
+      font-size: 1.2rem;
+    }
+
+    #detail-banner {
+      background: url('img/noticias/banner.jpg') center/cover no-repeat;
+      height: 300px;
+    }
+
+    #related-news .col img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    
+    body.light-theme .card.border-purple {
+      background-color: rgba(0, 0, 0, 0.03) !important;
+      color: #000 !important;
+    }
+
+    body.light-theme .card.border-purple h6,
+    body.light-theme .card.border-purple .form-control,
+    body.light-theme .card.border-purple .form-control::placeholder,
+    body.light-theme .card.border-purple .btn,
+    body.light-theme .card.border-purple .small,
+    body.light-theme .card.border-purple .list-unstyled li,
+    body.light-theme .card.border-purple .list-unstyled a,
+    body.light-theme .card.border-purple .sidebar-index li a,
+    body.light-theme .card.border-purple #sidebar-tags span,
+    body.light-theme .card.border-purple #sidebar-quickdata li,
+    body.light-theme .card.border-purple .sidebar-recent a {
+      color: #000 !important;
+    }
+
+    body.light-theme .card.border-purple .form-control {
+      background-color: rgba(0, 0, 0, 0.02) !important;
+      color: #000 !important;
+    }
+
+    body.light-theme .card.border-purple .btn-purple {
+      background-color: #6f42c1 !important;
+      color: #fff !important;
+    }
+
+    body.light-theme .card.border-purple .btn-outline-purple {
+      border-color: #6f42c1 !important;
+      color: #6f42c1 !important;
+    }
+
+    body.light-theme .card.border-purple .btn-outline-purple:hover {
+      background-color: #6f42c1 !important;
+      color: #fff !important;
+    }
+
+    body.light-theme .detail-share a,
+    body.light-theme .text-light {
+      color: #000 !important;
+    }
+
+    .related-card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+    
+  body:not(.light-theme) #detail-title,
+  body:not(.light-theme) #detail-meta,
+  body:not(.light-theme) .card.border-purple h6,
+  body:not(.light-theme) .card.border-purple .btn,
+  body:not(.light-theme) .related-card .card-title,
+  body:not(.light-theme) .related-card small,
+  body:not(.light-theme) .btn-outline-purple {
+    color: #f8f9fa !important;
+  }
+
+  body:not(.light-theme) .energy-bar {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 10px;
+    border-radius: 5px;
+  }
+
+  body:not(.light-theme) .energy-fill {
+    background: linear-gradient(to right, #6f42c1, #dc3545);
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  
+  body.light-theme .energy-bar {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 10px;
+    border-radius: 5px;
+  }
+
+  body.light-theme .energy-fill {
+    background: linear-gradient(to right, #6f42c1, #dc3545);
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  body.light-theme .related-card .card-title,
+  body.light-theme .related-card small,
+  body.light-theme #detail-meta,
+  body.light-theme #detail-title {
+    color: #212529 !important;
+  }
+
+  </style>
+</head>
+
+<body class="bg-dark text-light d-flex flex-column min-vh-100" id="body-theme">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-fire"></i> JUJUTSU KAISEN</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="personajes.html">Personajes</a></li>
+          <li class="nav-item"><a class="nav-link" href="tecnicas.html">Técnicas</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="enlaces.html">Enlaces</a></li>
+          <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+        </ul>
+        <button id="theme-toggle" class="btn btn-outline-light ms-3">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+  <main class="flex-grow-1">
+    <header class="detail-banner mb-4" id="detail-banner"></header>
+    <div class="container">
+      <div class="row">
+      
+        <div class="col-lg-8 col-md-7">
+          <small id="detail-meta" class="text-muted d-block mb-2"></small>
+          <h1 id="detail-title" class="mb-4"></h1>
+          <article id="detail-content" class="mb-5"></article>
+          <div class="detail-tags mb-4"></div>
+          <div class="detail-share mb-5">
+            <a id="share-twitter" href="#" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a id="share-facebook" href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a id="share-whatsapp" href="#" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          </div>
+          <section>
+            <h5 class="mb-3">Noticias relacionadas</h5>
+            <div class="row gy-3" id="related-news"></div>
+          </section>
+        </div>
+
+        
+        <aside class="col-lg-4 col-md-5">
+          <div class="sticky-top" style="top:100px">
+            <div class="card mb-4 p-3 border-purple">
+              <h6>Datos Rápidos</h6>
+              <ul class="list-unstyled small mb-0" id="sidebar-quickdata"></ul>
+            </div>
+            <div class="card mb-4 p-3 border-purple">
+              <h6>Índice</h6>
+              <ul class="list-unstyled mb-0 sidebar-index"></ul>
+            </div>
+            <div class="card mb-4 p-3 border-purple">
+              <h6>Cursed Energy</h6>
+              <div class="energy-bar"><div class="energy-fill" style="width: 85%;"></div></div>
+            </div>
+            <div class="card mb-4 p-3 border-purple">
+              <h6>Etiquetas</h6>
+              <div id="sidebar-tags"></div>
+            </div>
+            <div class="card mb-4 p-3 border-purple">
+              <h6>Únete al clan</h6>
+              <input type="email" class="form-control mb-2" placeholder="Tu correo">
+              <button class="btn btn-purple w-100">¡Suscribirme!</button>
+            </div>
+            <div class="card mb-4 p-3 border-purple">
+              <h6>Recientes</h6>
+              <ul class="list-unstyled small mb-0 sidebar-recent"></ul>
+            </div>
+            <div class="d-grid mb-4">
+              <a href="noticias.html" class="btn btn-outline-purple">← Volver a Noticias</a>
+            </div>
+            <div class="text-center">
+              <a href="#" class="me-2 text-light"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="me-2 text-light"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-light"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+ 
+  <section class="text-center py-4 bg-black">
+    <h4>Síguenos en redes</h4>
+    <div class="d-flex justify-content-center gap-4 fs-3">
+      <a href="https://facebook.com" class="text-light" target="_blank"><i class="bi bi-facebook"></i></a>
+      <a href="https://twitter.com" class="text-light" target="_blank"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://instagram.com" class="text-light" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://youtube.com" class="text-light" target="_blank"><i class="bi bi-youtube"></i></a>
+    </div>
+  </section>
+
+
+  <footer class="bg-dark text-center text-secondary py-3">
+    <p>© 2025 Fanpage creada por Rosellen Cordero | Jujutsu Kaisen</p>
+    <button class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#modalPoliticas">Ver Políticas de Privacidad</button>
+  </footer>
+
+
+  <div class="modal fade" id="modalPoliticas" tabindex="-1" aria-labelledby="modalPoliticasLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalPoliticasLabel">Políticas de Privacidad</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Este sitio fan de Jujutsu Kaisen no recopila información personal...</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/news-detail.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

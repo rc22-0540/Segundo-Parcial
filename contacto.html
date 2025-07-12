@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - Jujutsu Kaisen Fanpage</title>
+  <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+  <meta name="description" content="Contáctanos para compartir tus ideas o dudas sobre Jujutsu Kaisen." />
+  <meta name="keywords" content="Jujutsu Kaisen, anime, contacto, hechicería" />
+  <meta name="author" content="Rosellen Cordero" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#dc3545" />
+  <meta property="og:title" content="Contacto - Jujutsu Kaisen Fanpage" />
+  <meta property="og:description" content="Contáctanos para compartir tus ideas o dudas sobre Jujutsu Kaisen." />
+  <meta property="og:image" content="img/portada.jpg" />
+  <meta property="og:url" content="https://your-site.com/contacto.html" />
+
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&family=Montserrat:wght@700&family=Creepster&display=swap"
+    rel="stylesheet"
+  />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+ 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="css/styles.css" />
+ 
+  <link rel="stylesheet" href="css/contacto.css" />
+</head>
+
+<body id="body-theme" class="bg-dark text-light d-flex flex-column min-vh-100">
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <i class="bi bi-fire"></i> JUJUTSU KAISEN
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#nav"
+        aria-controls="nav"
+        aria-expanded="false"
+        aria-label="Mostrar navegación"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="personajes.html">Personajes</a></li>
+          <li class="nav-item"><a class="nav-link" href="tecnicas.html">Técnicas</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="enlaces.html">Enlaces</a></li>
+          <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+        </ul>
+        <button id="theme-toggle" class="btn btn-outline-light ms-3">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+    <section
+    class="hero-section position-relative text-center text-white py-5"
+    style="background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('img/contactos/contacto.jpg') center/cover no-repeat;"
+    >
+    <div class="hero-content" data-aos="fade-up">
+        <h1 class="hero-title">CONECTA CON NOSOTROS</h1>
+        <p class="hero-subtitle">Únete a la comunidad de hechiceros y comparte tu pasión por Jujutsu Kaisen</p>
+        <div class="hero-stats d-flex justify-content-center gap-5 mt-4">
+        <div class="stat-item text-center" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-people-fill fs-2"></i>
+            <h2 class="stat-number" data-count="15000">0</h2>
+            <p class="stat-label">Miembros</p>
+        </div>
+        <div class="stat-item text-center" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-chat-dots-fill fs-2"></i>
+            <h2 class="stat-number" data-count="2500">0</h2>
+            <p class="stat-label">Mensajes</p>
+        </div>
+        <div class="stat-item text-center" data-aos="fade-up" data-aos-delay="600">
+            <i class="bi bi-heart-fill fs-2"></i>
+            <h2 class="stat-number" data-count="98">0</h2>
+            <p class="stat-label">% Satisfacción</p>
+        </div>
+        </div>
+    </div>
+
+  
+    <div class="floating-elements position-absolute top-0 start-0 w-100 h-100">
+        <div class="floating-symbol">呪</div>
+        <div class="floating-symbol">術</div>
+        <div class="floating-symbol">廻</div>
+        <div class="floating-symbol">戦</div>
+    </div>
+    </section>
+
+  
+  <main class="flex-grow-1">
+ 
+    <section class="contact-methods py-5">
+      <div class="container">
+        <div class="row g-4">
+         
+          <div class="col-lg-8" data-aos="fade-right">
+            <div class="contact-card">
+              <div class="card-header">
+                <h3><i class="bi bi-envelope-paper-fill me-2"></i>Envíanos un Mensaje</h3>
+                <p>Comparte tus ideas, teorías o simplemente salúdanos</p>
+              </div>
+              <form id="contactForm" class="contact-form">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                  <label for="nombre"><i class="bi bi-person-fill me-2"></i>Nombre Completo</label>
+                </div>
+                
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="tu@email.com" required>
+                  <label for="email"><i class="bi bi-envelope-fill me-2"></i>Correo Electrónico</label>
+                </div>
+              
+                <div class="form-floating mb-4">
+                  <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." style="height: 150px" required></textarea>
+                  <label for="mensaje"><i class="bi bi-chat-text-fill me-2"></i>Tu Mensaje</label>
+                </div>
+                
+                <div class="form-check mb-4">
+                  <input class="form-check-input" type="checkbox" id="newsletter" name="newsletter">
+                  <label class="form-check-label" for="newsletter">
+                    <i class="bi bi-bell-fill me-2"></i>Quiero recibir noticias sobre Jujutsu Kaisen
+                  </label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-lg w-100" id="submitBtn">
+                  <i class="bi bi-send-fill me-2"></i>
+                  <span class="btn-text">Enviar Mensaje</span>
+                  <div class="btn-loading d-none">
+                    <div class="spinner-border spinner-border-sm me-2" role="status"></div>
+                    Enviando...
+                  </div>
+                </button>
+              </form>
+            </div>
+          </div>
+          
+          <div class="col-lg-4" data-aos="fade-left">
+            <div class="contact-info">
+              <div class="info-card">
+                <div class="info-header">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <h4>Ubicación</h4>
+                </div>
+                <p>Distrito de Shibuya<br>Tokio, Japón 🏙️</p>
+              </div>
+              
+              <div class="info-card">
+                <div class="info-header">
+                  <i class="bi bi-envelope-fill"></i>
+                  <h4>Correo Directo</h4>
+                </div>
+                <a href="mailto:corderorosellen@gmail.com" class="contact-link">
+                  corderorosellen@gmail.com
+                </a>
+              </div>
+              
+              <div class="info-card">
+                <div class="info-header">
+                  <i class="bi bi-clock-fill"></i>
+                  <h4>Disponibilidad</h4>
+                </div>
+                <p>24/7 - Como un verdadero hechicero</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="faq-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5" data-aos="fade-up">
+          <i class="bi bi-question-circle-fill me-2"></i>Preguntas Frecuentes
+        </h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="accordion" id="faqAccordion">
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                    <i class="bi bi-lightning-charge-fill me-2"></i>
+                    ¿Cómo puedo colaborar con el sitio?
+                  </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    ¡Nos encanta recibir colaboraciones! Puedes contribuir con teorías, análisis de personajes, reseñas de episodios, fan art, o cualquier contenido relacionado con Jujutsu Kaisen. Solo envíanos un mensaje con tu propuesta.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                    <i class="bi bi-shield-fill-check me-2"></i>
+                    ¿Es seguro compartir mi información?
+                  </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Absolutamente. No recopilamos información personal más allá de lo necesario para responder tu mensaje. No vendemos datos ni enviamos spam. Tu privacidad es tan importante como la técnica de dominio de Gojo.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                    <i class="bi bi-clock-history me-2"></i>
+                    ¿Cuánto tardan en responder?
+                  </button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    Normalmente respondemos en 24-48 horas. Si tu mensaje es sobre una teoría muy interesante o una colaboración, podríamos tardar un poco más para darte una respuesta detallada y útil.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                    <i class="bi bi-people-fill me-2"></i>
+                    ¿Tienen comunidad en redes sociales?
+                  </button>
+                </h2>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">
+                    ¡Por supuesto! Síguenos en todas nuestras redes sociales para contenido diario, memes, teorías y discusiones sobre Jujutsu Kaisen. Los enlaces están al final de la página.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <section class="community-section py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h2 class="section-title">
+              <i class="bi bi-people-fill me-2"></i>Únete a Nuestra Comunidad
+            </h2>
+            <p class="lead">Más de 15,000 fans de Jujutsu Kaisen comparten teorías, análisis y su pasión por el anime y manga.</p>
+            <div class="community-features">
+              <div class="feature-item"><i class="bi bi-chat-square-dots-fill"></i><span>Discusiones diarias sobre episodios</span></div>
+              <div class="feature-item"><i class="bi bi-lightbulb-fill"></i><span>Teorías y especulaciones</span></div>
+              <div class="feature-item"><i class="bi bi-palette-fill"></i><span>Galería de fan art</span></div>
+              <div class="feature-item"><i class="bi bi-trophy-fill"></i><span>Concursos y eventos especiales</span></div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="community-stats">
+              <div class="stat-card"><i class="bi bi-eye-fill"></i><div class="stat-info"><span class="stat-number">500K+</span><span class="stat-label">Visitas mensuales</span></div></div>
+              <div class="stat-card"><i class="bi bi-heart-fill"></i><div class="stat-info"><span class="stat-number">25K+</span><span class="stat-label">Likes en contenido</span></div></div>
+              <div class="stat-card"><i class="bi bi-share-fill"></i><div class="stat-info"><span class="stat-number">10K+</span><span class="stat-label">Contenido compartido</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <section class="social-section text-center py-4">
+    <div class="container">
+      <h4 data-aos="fade-up">Síguenos en redes sociales</h4>
+      <div class="social-links d-flex justify-content-center gap-4 fs-3" data-aos="fade-up" data-aos-delay="400">
+        <a href="https://facebook.com" class="social-icon facebook" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i><span class="social-tooltip">Facebook</span>
+        </a>
+        <a href="https://instagram.com" class="social-icon instagram" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i><span class="social-tooltip">Instagram</span>
+        </a>
+        <a href="https://youtube.com" class="social-icon youtube" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-youtube"></i><span class="social-tooltip">YouTube</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-center text-secondary py-3">
+    <div class="container">
+      <p>
+        Rosellen Cordero | Jujutsu Kaisen</p>
+      <button class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#modalPoliticas">
+        Ver Políticas de Privacidad
+      </button>
+    </div>
+  </footer>
+
+ 
+  <div class="modal fade" id="modalPoliticas" tabindex="-1" aria-labelledby="modalPoliticasLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalPoliticasLabel">Políticas de Privacidad</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p>Este sitio fan de Jujutsu Kaisen no recopila información personal. Las imágenes, textos y contenido están destinados únicamente para fines educativos y de entretenimiento.</p>
+          <ul>
+            <li>No vendemos tus datos.</li>
+            <li>No usamos cookies de seguimiento.</li>
+            <li>Los formularios de contacto solo usan <code>mailto</code> para enviar mensajes desde tu aplicación de correo.</li>
+          </ul>
+          <p>Para más información, puedes escribirnos a nuestro correo oficial.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light border-success">
+        <div class="modal-header border-success">
+          <h5 class="modal-title text-success" id="successModalLabel">
+            <i class="bi bi-check-circle-fill me-2"></i>¡Mensaje Enviado!
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body text-center">
+          <div class="success-animation mb-3">
+            <i class="bi bi-send-check-fill text-success" style="font-size: 3rem;"></i>
+          </div>
+          <p>Tu mensaje ha sido enviado exitosamente. Te responderemos pronto.</p>
+          <small class="text-muted">Gracias por contactarnos, hechicero </small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="scroll-top" id="scrollTop">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/contacto.js"></script>
+</body>
+</html>

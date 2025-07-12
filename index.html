@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jujutsu Kaisen Fanpage | El mundo de los hechiceros</title>
+  <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
+  <meta name="description" content="Explora el universo de Jujutsu Kaisen: personajes, técnicas, historia, y mucho más." />
+  <meta name="keywords" content="Jujutsu Kaisen, anime, fanpage" />
+  <meta name="author" content="Rosellen Cordero" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#dc3545" />
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Roboto:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <style>
+   
+    .modal-backdrop.show {
+      z-index: 1040 !important;        
+      pointer-events: none !important; 
+      background-color: rgba(0,0,0,0.5) !important;
+    }
+
+   
+    .modal.show {
+      z-index: 1050 !important;
+    }
+
+  
+    .modal.show .modal-dialog {
+      position: relative;
+      z-index: 1060 !important;
+      pointer-events: auto !important;  
+    }
+    .modal-content {
+      pointer-events: auto !important;
+    }
+  </style>
+
+  
+
+  <style>
+    #tsparticles {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+    header.portada .cover-bg,
+    main,
+    footer {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head> 
+<body class="bg-dark text-light d-flex flex-column min-vh-100" id="body-theme">
+  
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-fire"></i> JUJUTSU KAISEN</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="personajes.html">Personajes</a></li>
+          <li class="nav-item"><a class="nav-link" href="tecnicas.html">Técnicas</a></li>
+          <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="enlaces.html">Enlaces</a></li>
+          <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+        </ul>
+        <button id="theme-toggle" type="button" class="btn btn-outline-light ms-3">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+  <header class="portada vh-100 d-flex align-items-center justify-content-center position-relative">
+    <div id="tsparticles"></div>
+    <div class="cover-bg p-5 rounded text-center">
+      <h1 class="display-3 fw-bold">JUJUTSU KAISEN</h1>
+      <p class="lead">"El mundo de los hechiceros te espera…"</p>
+      <div class="hero-stats mt-4">
+        <div class="row text-center">
+          <div class="col-4">
+            <h3 class="text-danger">150+</h3>
+            <small>Personajes</small>
+          </div>
+          <div class="col-4">
+            <h3 class="text-danger">50+</h3>
+            <small>Técnicas</small>
+          </div>
+          <div class="col-4">
+            <h3 class="text-danger">20+</h3>
+            <small>Dominios</small>
+          </div>
+        </div>
+      </div>
+      <a href="#synopsis" class="btn btn-danger btn-lg mt-4">Explorar Mundo</a>
+    </div>
+  </header>
+
+  <main id="main-content" class="flex-grow-1">
+  
+    <section id="synopsis" class="py-5 bg-gradient">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 class="display-4 mb-4">
+              <i class="bi bi-book text-danger me-3"></i>
+              Sinopsis
+            </h2>
+            <p class="lead mb-4">
+              En un mundo donde las emociones negativas dan vida a maldiciones mortales, 
+              los hechiceros luchan en las sombras para proteger a la humanidad.
+            </p>
+            <p class="mb-4">
+              <strong>Yuji Itadori</strong>, un estudiante de preparatoria con habilidades físicas 
+              extraordinarias, se ve arrastrado a este mundo oculto cuando consume un dedo 
+              del Rey de las Maldiciones, <strong>Ryomen Sukuna</strong>.
+            </p>
+            <p class="mb-4">
+              Ahora, como recipiente de Sukuna, Yuji debe entrenar en la Escuela Técnica 
+              Superior de Hechicería de Tokio junto a sus compañeros <strong>Megumi Fushiguro</strong> 
+              y <strong>Nobara Kugisaki</strong>, bajo la tutela del poderoso hechicero 
+              <strong>Satoru Gojo</strong>.
+            </p>
+            <div class="synopsis-tags">
+              <span class="badge bg-danger me-2">Acción</span>
+              <span class="badge bg-purple me-2">Sobrenatural</span>
+              <span class="badge bg-warning me-2">Escolar</span>
+              <span class="badge bg-success">Shonen</span>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="synopsis-image-container">
+              <img src="img/jk.jpg" 
+                   alt="Jujutsu Kaisen Main Characters" 
+                   class="img-fluid rounded shadow-lg">
+              <div class="image-overlay">
+                <div class="overlay-content">
+                  <h5>Protagonistas Principales</h5>
+                  <p>Yuji, Megumi, Nobara y Gojo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="cursed-techniques" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">
+          <i class="bi bi-lightning text-danger me-3"></i>
+          Glosario de Técnicas Malditas
+        </h2>
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="technique-card h-100">
+              <div class="card bg-dark border-danger">
+                <div class="card-header bg-danger">
+                  <h5 class="mb-0">
+                    <i class="bi bi-infinity me-2"></i>
+                    Técnicas Innatas
+                  </h5>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled">
+                    <li class="mb-3">
+                      <strong class="text-danger">Limitless:</strong>
+                      <small class="d-block text-muted">
+                        Manipulación del espacio infinito (Gojo)
+                      </small>
+                    </li>
+                    <li class="mb-3">
+                      <strong class="text-danger">Ten Shadows:</strong>
+                      <small class="d-block text-muted">
+                        Invocación de shikigamis sombríos (Megumi)
+                      </small>
+                    </li>
+                    <li class="mb-3">
+                      <strong class="text-danger">Straw Doll:</strong>
+                      <small class="d-block text-muted">
+                        Técnica de muñeco vudú (Nobara)
+                      </small>
+                    </li>
+                    <li class="mb-3">
+                      <strong class="text-danger">Cursed Speech:</strong>
+                      <small class="d-block text-muted">
+                        Palabras que se vuelven realidad (Inumaki)
+                      </small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 mb-4">
+            <div class="technique-card h-100">
+              <div class="card bg-dark border-purple">
+                <div class="card-header bg-purple">
+                  <h5 class="mb-0">
+                    <i class="bi bi-house-door me-2"></i>
+                    Expansiones de Dominio
+                  </h5>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled">
+                    <li class="mb-3">
+                      <strong class="text-purple">Unlimited Void:</strong>
+                      <small class="d-block text-muted">
+                        Vacío infinito de información (Gojo)
+                      </small>
+                    </li>
+                    <li class="mb-3">
+                      <strong class="text-purple">Malevolent Shrine:</strong>
+                      <small class="d-block text-muted">
+                        Santuario malévolo (Sukuna)
+                      </small>
+                    </li>
+                    <li class="mb-3">
+                      <strong class="text-purple">Chimera Shadow Garden:</strong>
+                      <small class="d-block text-muted">
+                        Jardín de sombras quiméricas (Megumi)
+                      </small>
+                    </li>
+                    <li class="mb-3">
+                      <strong class="text-purple">Self-Embodiment of Perfection:</strong>
+                      <small class="d-block text-muted">
+                        Autoencarnación de la perfección (Mahito)
+                      </small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 mb-4">
+            <div class="technique-card h-100">
+              <div class="card bg-dark border-warning">
+                <div class="card-header bg-warning text-dark">
+                  <h5 class="mb-0">
+                    <i class="bi bi-shield me-2"></i>
+                    Técnicas Especiales
+                  </h5>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled">
+                    <li class="mb-3">
+                      <strong class="text-warning">Reverse Cursed Technique:</strong>
+                      <small class="d-block text-muted">
+                        Curación mediante energía maldita invertida
+                      </small>
+                    </li>
+                    <li class="mb-3">
+                      <strong class="text-warning">Black Flash:</strong>
+                      <small class="d-block text-muted">
+                        Golpe crítico con energía maldita
+                      </small>
+                    </li>
+                    <li class="mb-3">
+                      <strong class="text-warning">Simple Domain:</strong>
+                      <small class="d-block text-muted">
+                        Dominio básico de neutralización
+                      </small>
+                    </li>
+                    <li class="mb-3">
+                      <strong class="text-warning">Binding Vow:</strong>
+                      <small class="d-block text-muted">
+                        Pactos que aumentan el poder
+                      </small>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="curse-categories" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">
+          <i class="bi bi-bug text-danger me-3"></i>
+          Categorías de Maldiciones
+        </h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="curse-category-card text-center">
+              <div class="category-icon mb-3">
+                <i class="bi bi-1-circle-fill text-danger" style="font-size: 3rem;"></i>
+              </div>
+              <h4 class="text-danger">Grado Especial</h4>
+              <p class="text-muted">
+                Maldiciones capaces de destruir ciudades enteras. 
+                Requieren múltiples hechiceros de grado 1 o un hechicero especial.
+              </p>
+              <div class="threat-level">
+                <div class="progress mb-2">
+                  <div class="progress-bar bg-danger" style="width: 100%"></div>
+                </div>
+                <small class="text-danger">Amenaza Extrema</small>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="curse-category-card text-center">
+              <div class="category-icon mb-3">
+                <i class="bi bi-2-circle-fill text-warning" style="font-size: 3rem;"></i>
+              </div>
+              <h4 class="text-warning">Grado 1</h4>
+              <p class="text-muted">
+                Maldiciones peligrosas que pueden causar daños masivos. 
+                Requieren hechiceros de grado 1 para ser exorcizadas.
+              </p>
+              <div class="threat-level">
+                <div class="progress mb-2">
+                  <div class="progress-bar bg-warning" style="width: 80%"></div>
+                </div>
+                <small class="text-warning">Amenaza Alta</small>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="curse-category-card text-center">
+              <div class="category-icon mb-3">
+                <i class="bi bi-3-circle-fill text-info" style="font-size: 3rem;"></i>
+              </div>
+              <h4 class="text-info">Grado 2</h4>
+              <p class="text-muted">
+                Maldiciones moderadamente peligrosas. 
+                Pueden ser manejadas por hechiceros de grado 2 o superior.
+              </p>
+              <div class="threat-level">
+                <div class="progress mb-2">
+                  <div class="progress-bar bg-info" style="width: 60%"></div>
+                </div>
+                <small class="text-info">Amenaza Media</small>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="curse-category-card text-center">
+              <div class="category-icon mb-3">
+                <i class="bi bi-4-circle-fill text-success" style="font-size: 3rem;"></i>
+              </div>
+              <h4 class="text-success">Grado 3-4</h4>
+              <p class="text-muted">
+                Maldiciones débiles que pueden ser exorcizadas 
+                por estudiantes o hechiceros novatos.
+              </p>
+              <div class="threat-level">
+                <div class="progress mb-2">
+                  <div class="progress-bar bg-success" style="width: 30%"></div>
+                </div>
+                <small class="text-success">Amenaza Baja</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <section id="powerful-curses" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">
+          <i class="bi bi-crown text-danger me-3"></i>
+          Las Maldiciones Más Poderosas
+        </h2>
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div class="powerful-curse-card">
+              <div class="card bg-dark border-danger h-100">
+                <div class="row g-0 h-100">
+                  <div class="col-md-4">
+                    <img src="img/sukuna.jpg" 
+                         class="img-fluid h-100 object-fit-cover" 
+                         alt="Ryomen Sukuna">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body h-100 d-flex flex-column">
+                      <h5 class="card-title text-danger">
+                        <i class="bi bi-fire me-2"></i>
+                        Ryomen Sukuna
+                      </h5>
+                      <h6 class="text-muted">Rey de las Maldiciones</h6>
+                      <p class="card-text flex-grow-1">
+                        La maldición más poderosa de la historia. Conocido como el 
+                        "Rey de las Maldiciones", Sukuna posee un poder destructivo 
+                        inimaginable y técnicas devastadoras como Cleave y Dismantle.
+                      </p>
+                      <div class="curse-stats">
+                        <div class="row text-center">
+                          <div class="col-4">
+                            <small class="text-muted">Poder</small>
+                            <div class="h6 text-danger">∞</div>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">Dedos</small>
+                            <div class="h6 text-warning">20</div>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">Grado</small>
+                            <div class="h6 text-danger">Especial</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 mb-4">
+            <div class="powerful-curse-card">
+              <div class="card bg-dark border-purple h-100">
+                <div class="row g-0 h-100">
+                  <div class="col-md-4">
+                    <img src="img/mahito2.jpg" 
+                         class="img-fluid h-100 object-fit-cover" 
+                         alt="Mahito">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body h-100 d-flex flex-column">
+                      <h5 class="card-title text-purple">
+                        <i class="bi bi-person-fill me-2"></i>
+                        Mahito
+                      </h5>
+                      <h6 class="text-muted">Maldición Especial</h6>
+                      <p class="card-text flex-grow-1">
+                        Una maldición nacida del odio entre humanos. Su técnica 
+                        "Idle Transfiguration" le permite alterar la forma del alma, 
+                        transformando a los humanos en monstruos.
+                      </p>
+                      <div class="curse-stats">
+                        <div class="row text-center">
+                          <div class="col-4">
+                            <small class="text-muted">Poder</small>
+                            <div class="h6 text-purple">S+</div>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">Técnica</small>
+                            <div class="h6 text-warning">Alma</div>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">Grado</small>
+                            <div class="h6 text-danger">Especial</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 mb-4">
+            <div class="powerful-curse-card">
+              <div class="card bg-dark border-info h-100">
+                <div class="row g-0 h-100">
+                  <div class="col-md-4">
+                    <img src="img/gj.jpg" 
+                         class="img-fluid h-100 object-fit-cover" 
+                         alt="Jogo">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body h-100 d-flex flex-column">
+                      <h5 class="card-title text-info">
+                        <i class="bi bi-fire me-2"></i>
+                        Jogo
+                      </h5>
+                      <h6 class="text-muted">Maldición del Volcán</h6>
+                      <p class="card-text flex-grow-1">
+                        Una maldición nacida del miedo a los volcanes y desastres 
+                        naturales. Posee un dominio devastador y técnicas de fuego 
+                        extremadamente destructivas.
+                      </p>
+                      <div class="curse-stats">
+                        <div class="row text-center">
+                          <div class="col-4">
+                            <small class="text-muted">Poder</small>
+                            <div class="h6 text-info">S</div>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">Elemento</small>
+                            <div class="h6 text-warning">Fuego</div>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">Grado</small>
+                            <div class="h6 text-danger">Especial</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 mb-4">
+            <div class="powerful-curse-card">
+              <div class="card bg-dark border-success h-100">
+                <div class="row g-0 h-100">
+                  <div class="col-md-4">
+                    <img src="img/hanami.jpg" 
+                         class="img-fluid h-100 object-fit-cover" 
+                         alt="Hanami">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body h-100 d-flex flex-column">
+                      <h5 class="card-title text-success">
+                        <i class="bi bi-tree me-2"></i>
+                        Hanami
+                      </h5>
+                      <h6 class="text-muted">Maldición de la Naturaleza</h6>
+                      <p class="card-text flex-grow-1">
+                        Una maldición nacida del miedo a los desastres forestales. 
+                        Posee una defensa casi impenetrable y técnicas basadas en 
+                        plantas que pueden drenar la energía vital.
+                      </p>
+                      <div class="curse-stats">
+                        <div class="row text-center">
+                          <div class="col-4">
+                            <small class="text-muted">Poder</small>
+                            <div class="h6 text-success">A+</div>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">Elemento</small>
+                            <div class="h6 text-warning">Planta</div>
+                          </div>
+                          <div class="col-4">
+                            <small class="text-muted">Grado</small>
+                            <div class="h6 text-danger">Especial</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="featured-characters" class="py-5 bg-black">
+      <div class="container">
+        <h2 class="text-center mb-5">
+          <i class="bi bi-people text-danger me-3"></i>
+          Personajes Destacados
+        </h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="character-spotlight">
+              <div class="card bg-dark border-0 h-100">
+                <div class="position-relative">
+                  <img src="img/Yuji.jpg" 
+                       class="card-img-top" alt="Yuji Itadori">
+                  <div class="character-overlay">
+                    <div class="character-rank">Protagonista</div>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title text-danger">Yuji Itadori</h5>
+                  <p class="card-text text-muted">
+                    Recipiente de Sukuna y estudiante de primer año
+                  </p>
+                  <div class="character-power">
+                    <small class="text-warning">Poder: A+</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="character-spotlight">
+              <div class="card bg-dark border-0 h-100">
+                <div class="position-relative">
+                  <img src="img/gojo12.jpg" 
+                       class="card-img-top" alt="Satoru Gojo">
+                  <div class="character-overlay">
+                    <div class="character-rank">Hechicero Especial</div>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title text-info">Satoru Gojo</h5>
+                  <p class="card-text text-muted">
+                    El hechicero más fuerte de la era moderna
+                  </p>
+                  <div class="character-power">
+                    <small class="text-warning">Poder: S++</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="character-spotlight">
+              <div class="card bg-dark border-0 h-100">
+                <div class="position-relative">
+                  <img src="img/megu.jpg" 
+                       class="card-img-top" alt="Megumi Fushiguro">
+                  <div class="character-overlay">
+                    <div class="character-rank">Estudiante</div>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title text-primary">Megumi Fushiguro</h5>
+                  <p class="card-text text-muted">
+                    Usuario de la técnica Ten Shadows
+                  </p>
+                  <div class="character-power">
+                    <small class="text-warning">Poder: A</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="character-spotlight">
+              <div class="card bg-dark border-0 h-100">
+                <div class="position-relative">
+                  <img src="img/nobara.jpg" 
+                       class="card-img-top" alt="Nobara Kugisaki">
+                  <div class="character-overlay">
+                    <div class="character-rank">Estudiante</div>
+                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title text-warning">Nobara Kugisaki</h5>
+                  <p class="card-text text-muted">
+                    Usuaria de la técnica Straw Doll
+                  </p>
+                  <div class="character-power">
+                    <small class="text-warning">Poder: B+</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a href="personajes.html" class="btn btn-outline-danger btn-lg">
+            Ver Todos los Personajes
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="world-stats" class="py-5 bg-gradient">
+      <div class="container">
+        <h2 class="text-center mb-5">
+          <i class="bi bi-graph-up text-danger me-3"></i>
+          Estadísticas del Mundo JJK
+        </h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="stat-card text-center">
+              <div class="stat-icon mb-3">
+                <i class="bi bi-people-fill text-danger" style="font-size: 3rem;"></i>
+              </div>
+              <h3 class="stat-number text-danger" data-target="150">0</h3>
+              <p class="stat-label">Personajes Totales</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="stat-card text-center">
+              <div class="stat-icon mb-3">
+                <i class="bi bi-lightning-fill text-warning" style="font-size: 3rem;"></i>
+              </div>
+              <h3 class="stat-number text-warning" data-target="50">0</h3>
+              <p class="stat-label">Técnicas Malditas</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="stat-card text-center">
+              <div class="stat-icon mb-3">
+                <i class="bi bi-house-door-fill text-info" style="font-size: 3rem;"></i>
+              </div>
+              <h3 class="stat-number text-info" data-target="20">0</h3>
+              <p class="stat-label">Dominios Conocidos</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="stat-card text-center">
+              <div class="stat-icon mb-3">
+                <i class="bi bi-bug-fill text-success" style="font-size: 3rem;"></i>
+              </div>
+              <h3 class="stat-number text-success" data-target="100">0</h3>
+              <p class="stat-label">Maldiciones Catalogadas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ 
+    <footer class="bg-dark text-center text-secondary py-4 mt-auto">
+      <div class="container">
+        <div class="row align-items-center text-center text-md-start">
+          <div class="col-md-6 d-flex justify-content-center justify-content-md-start align-items-center mb-2 mb-md-0">
+            <p class="mb-0">Rosellen Cordero | Jujutsu Kaisen</p>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center justify-content-md-end align-items-center">
+            
+            </div>
+          </div>
+        </div>
+        <hr class="my-3">
+        <div class="text-center">
+          <button type="button" 
+                  class="btn btn-outline-light btn-sm" 
+                  data-bs-toggle="modal" 
+                  data-bs-target="#modalPoliticas">
+            Ver Políticas de Privacidad
+          </button>
+        </div>
+      </div>
+    </footer>
+
+
+   
+    <div class="modal fade" id="modalPoliticas" tabindex="-1" aria-labelledby="modalPoliticasLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalPoliticasLabel">Políticas de Privacidad</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <p>Este sitio fan de Jujutsu Kaisen no recopila información personal. Las imágenes, textos y contenido están destinados únicamente para fines educativos y de entretenimiento.</p>
+            <ul>
+              <li>No vendemos tus datos.</li>
+              <li>No usamos cookies de seguimiento.</li>
+              <li>Los formularios de contacto solo usan <code>mailto</code>.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
